@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Jean NENENOR - Potfolio",
+    fullName: "Jean NENENOR",
+    email: "nenenorj@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Jean NENENOR",
+    p: ["Développement web et organisations d'évènements tech"],
   },
   contact: {
     p: "Get in touch",
@@ -67,28 +67,18 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `Développeur web passionné, je crée des applications modernes et performantes en combinant NestJS, Django, React et Next.js.
+    J’aime concevoir des architectures propres, des APIs solides et des interfaces fluides.
+    À l’aise avec Docker, PostgreSQL, Linux et le debugging réseau, je sais résoudre des problèmes techniques complexes.`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
     },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
-    },
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `Mes projets suivants mettent en avant mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et des démonstrations en ligne. Ils reflètent ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.`,
     },
   },
 };
