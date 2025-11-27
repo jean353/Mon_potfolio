@@ -3,7 +3,6 @@ import type {
   TService,
   TTechnology,
   TExperience,
-  TTestimonial,
   TProject,
 } from "../types";
 
@@ -22,7 +21,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -114,10 +112,6 @@ const technologies: TTechnology[] = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -178,45 +172,60 @@ const experiences: TExperience[] = [
   },
 ];
 
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Bloc note décentralisé",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Un site qui te permet de prendre des notes de manière décentralisé ",
     tags: [
       {
-        name: "react",
+        name: "Scaffold-Stark",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cairo",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://github.com/jean353/Bloc-note-d-centralis-",
+  },
+  {
+    name: "Orga_africa",
+    description:
+      "Backend d'une application de gestion de restaurant et de commande",
+    tags: [
+      {
+        name: "Nestjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Type ORM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    sourceCodeLink: "https://github.com/HubbOrga/orga_backend_v1",
+  },
+  {
+    name: "ywca Togo",
+    description:
+      "Refonte du site de l'association.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgre",
         color: "green-text-gradient",
       },
       {
@@ -224,51 +233,9 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/jean353/refonte_ywca",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
