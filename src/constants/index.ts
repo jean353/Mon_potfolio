@@ -153,10 +153,11 @@ export const experiences: TExperience[] = [
     iconBg: '#383E56',
     date: 'Novembre 2025',
     points: [
-      'Développement et maintenance d\'applications web utilisant React.js et d\'autres technologies connexes.',
-      'Collaboration avec des équipes interfonctionnelles comprenant des designers, des chefs de produit et d\'autres développeurs pour créer des produits de haute qualité.',
-      'Mise en œuvre de la conception responsive et garantie de la compatibilité entre les navigateurs.',
-      'Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.',
+      '- Conception et développement d’API backend robustes avec NestJS, en suivant les bonnes pratiques du framework.',
+    'Implémentation de la base de données PostgreSQL avec TypeORM pour la gestion des entités, relations et migrations.',
+    'Utilisation de Docker & Docker Compose pour le déploiement local et la conteneurisation des services.',
+    'Structuration du projet selon une architecture modulaire monolithique, facilitant l’évolutivité et la maintenabilité du code.',
+    'Collaboration avec l’équipe produit pour intégrer des fonctionnalités adaptées aux besoins métier.',
     ],
   },
   {
