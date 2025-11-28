@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Jean NENENOR",
-    p: ["Développeur web et Organisateurs d'évènements tech"],
+    p: ["Développeur web et Organisateur d'évènements tech"],
   },
   contact: {
     p: "Contactez-nous",
