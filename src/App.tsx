@@ -12,6 +12,7 @@ import {
   Gallery,
   StarsCanvas,
 } from "./components";
+import FloatingSocialSidebar from "./components/atoms/FloatingSocialSidebar";
 import { useEffect } from "react";
 import { config } from "./constants/config";
 
@@ -39,6 +40,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <FloatingSocialSidebar />
       </div>
     </BrowserRouter>
   );

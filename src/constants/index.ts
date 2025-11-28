@@ -1,4 +1,4 @@
-import type { TNavLink, TService, TTechnology, TExperience, TProject } from '../types';
+import type { TNavLink, TService, TTechnology, TExperience, TProject, TSocialLink } from '../types';
 
 import {
   mobile,
@@ -374,3 +374,36 @@ export const gallery = [
 ];
 
 
+
+export const socialLinks: TSocialLink[] = [
+  {
+    name: "LinkedIn",
+    icon: "linkedin",
+    link: "https://www.linkedin.com/in/jean-nenenor-86b121283/",
+    color: "#0077B5",
+  },
+  {
+    name: "X",
+    icon: "x",
+    link: "https://x.com/JNenenor/",
+    color: "#000000",
+  },
+  {
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/jean_morningstar_/",
+    color: "#E1306C",
+  },
+  {
+    name: "WhatsApp",
+    icon: "whatsapp",
+    link: "https://wa.me/22891120671",
+    color: "#25D366",
+  },
+  {
+    name: "Discord",
+    icon: "discord",
+    link: "https://discord.gg/q7W8eACs",
+    color: "#5865F2",
+  },
+];

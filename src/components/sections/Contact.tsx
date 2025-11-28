@@ -7,6 +7,7 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import SocialLinks from "../atoms/SocialLinks";
 
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
@@ -108,6 +109,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <SocialLinks />
       </motion.div>
 
       <motion.div

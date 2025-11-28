@@ -42,3 +42,10 @@ export type TMotion = {
   delay: number;
   duration: number;
 };
+
+export type TSocialLink = {
+  name: string;
+  icon: string;
+  link: string;
+  color?: string;
+};
