@@ -35,6 +35,24 @@ import holly from "./holly.jpeg";
 import Notpad from "./Notpad.jpeg";
 import YWCA from "./YWCA.jpeg";
 
+// Photos Gallery
+import afiDrse from "./PHOTOS/AFI DRSE.jpeg";
+import copieImg from "./PHOTOS/Copie de IMG-20250226-WA0127.jpg";
+import drh from "./PHOTOS/DRH.jpeg";
+import dsi from "./PHOTOS/DSI.jpeg";
+import devAppliYas from "./PHOTOS/Dev appli yas.jpeg";
+import img20250707 from "./PHOTOS/IMG-20250707-WA0049.jpg";
+import img20250906 from "./PHOTOS/IMG-20250906-WA0036.jpg";
+import img20251102 from "./PHOTOS/IMG-20251102-WA0036.jpg";
+import img2482 from "./PHOTOS/IMG_2482.JPG";
+import img9583 from "./PHOTOS/IMG_9583.jpg";
+import img9621 from "./PHOTOS/IMG_9621.jpg";
+import mamanSowe from "./PHOTOS/Maman Sowe.jpeg";
+import photoFamille from "./PHOTOS/Photo de famille.jpeg";
+import tcd2025114 from "./PHOTOS/TCD2025-114.jpg";
+import tcd202556 from "./PHOTOS/TCD2025-56.jpg";
+import whatsappImage from "./PHOTOS/WhatsApp Image 2025-10-28 at 21.24.35.jpeg";
+
 export {
   logo,
   backend,
@@ -72,4 +90,22 @@ export {
   holly,
   Notpad,
   YWCA,
+
+  // Gallery Photos
+  afiDrse,
+  copieImg,
+  drh,
+  dsi,
+  devAppliYas,
+  img20250707,
+  img20250906,
+  img20251102,
+  img2482,
+  img9583,
+  img9621,
+  mamanSowe,
+  photoFamille,
+  tcd2025114,
+  tcd202556,
+  whatsappImage,
 };

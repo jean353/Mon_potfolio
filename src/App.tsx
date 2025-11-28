@@ -9,6 +9,7 @@ import {
   Navbar,
   Tech,
   Works,
+  Gallery,
   StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
@@ -34,6 +35,7 @@ const App = () => {
         <Works />
         <Feedbacks />
         <div className="relative z-0">
+          <Gallery />
           <Contact />
           <StarsCanvas />
         </div>

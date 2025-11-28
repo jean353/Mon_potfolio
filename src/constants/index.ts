@@ -29,22 +29,44 @@ import {
   holly,
   Notpad,
   YWCA,
+
+  // Gallery Photos
+  afiDrse,
+  copieImg,
+  drh,
+  dsi,
+  devAppliYas,
+  img20250707,
+  img20250906,
+  img20251102,
+  img2482,
+  img9583,
+  img9621,
+  mamanSowe,
+  photoFamille,
+  tcd2025114,
+  tcd202556,
+  whatsappImage,
 } from '../assets';
 
-// NOTE: J'ai retiré les variables suivantes qui étaient en double ou n'existaient pas dans assets:
-// - Impactune (duplicata de impactuneLogo)
-// - BDI (duplicata de bdiLogo)
-// - orgaafrica_logo (duplicata de orgaafricaLogo)
+
 
 export const navLinks: TNavLink[] = [
-  // ... (navLinks inchangés)
   {
     id: 'about',
-    title: 'About',
+    title: 'À propos',
   },
   {
     id: 'work',
-    title: 'Work',
+    title: 'Expérience',
+  },
+  {
+    id: 'works',
+    title: 'Projets',
+  },
+  {
+    id: 'gallery',
+    title: 'Galerie',
   },
   {
     id: 'contact',
@@ -53,9 +75,8 @@ export const navLinks: TNavLink[] = [
 ];
 
 export const services: TService[] = [
-  // ... (services inchangés)
   {
-    title: 'Web Developer',
+    title: 'Développeur Web',
     icon: web,
   },
   {
@@ -63,11 +84,11 @@ export const services: TService[] = [
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Développeur Backend',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Créateur de Contenu',
     icon: creator,
   },
 ];
@@ -126,22 +147,22 @@ export const technologies: TTechnology[] = [
 
 export const experiences: TExperience[] = [
   {
-    title: 'Nest.js Developer',
+    title: 'Développeur Nest.js',
     companyName: 'Orga Africa',
-    icon: orgaafricaLogo, // CORRIGÉ : utilisation du nouveau nom
+    icon: orgaafricaLogo,
     iconBg: '#383E56',
     date: 'Novembre 2025',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Développement et maintenance d\'applications web utilisant React.js et d\'autres technologies connexes.',
+      'Collaboration avec des équipes interfonctionnelles comprenant des designers, des chefs de produit et d\'autres développeurs pour créer des produits de haute qualité.',
+      'Mise en œuvre de la conception responsive et garantie de la compatibilité entre les navigateurs.',
+      'Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.',
     ],
   },
   {
-    title: 'React Native Developer',
+    title: 'Développeur React Native',
     companyName: 'Impactune',
-    icon: impactuneLogo, // CORRIGÉ : utilisation du nouveau nom
+    icon: impactuneLogo,
     iconBg: '#E6DEDD',
     date: 'Novembre 2025',
     points: [
@@ -149,9 +170,9 @@ export const experiences: TExperience[] = [
     ],
   },
   {
-    title: 'Web Developer',
+    title: 'Développeur Web',
     companyName: 'Impactune',
-    icon: impactuneLogo, // CORRIGÉ : utilisation du nouveau nom
+    icon: impactuneLogo,
     iconBg: '#383E56',
     date: 'Novembre 2025',
     points: [
@@ -159,34 +180,34 @@ export const experiences: TExperience[] = [
     ],
   },
   {
-    title: 'Full stack Developer',
+    title: 'Développeur Full Stack',
     companyName: 'Tribunal de grande instance',
-    icon: impactuneLogo, // MAINTENU : J'utilise le logo Impactune par défaut ici
+    icon: impactuneLogo,
     iconBg: '#E6DEDD',
-    date: 'Mai 2025 - Present',
+    date: 'Mai 2025 - Présent',
     points: [
-      "Développement d'un logiciel d'archivage avec laravel en front et node en back end",
+      "Développement d'un logiciel d'archivage avec Laravel en front et Node en back end",
       "Création d'un logiciel de gestion de prison (en cours).",
     ],
   },
   {
-    title: 'Web Developer',
+    title: 'Développeur Web',
     companyName: 'Bloc des Innovateurs',
     icon: bdiLogo,
     iconBg: '#E6DEDD',
-    date: 'mars 2025 - Present',
+    date: 'Mars 2025 - Présent',
     points: [
-      "Développement du site de l'association avec react",
-      "Développement d'un site de gestion de brevet avec React (en cours).", // J'ai ajouté la fin de la phrase
+      "Développement du site de l'association avec React",
+      "Développement d'un site de gestion de brevet avec React (en cours).",
     ],
-  }, // <--- Fermeture de l'objet expérience
+  },
 ];
 
 export const projects: TProject[] = [
   {
     name: "Bloc note décentralisé",
     description:
-      "Un site qui te permet de prendre des notes de manière décentralisé ",
+      "Un site qui te permet de prendre des notes de manière décentralisée",
     tags: [
       {
         name: "Scaffold-Stark",
@@ -247,9 +268,9 @@ export const projects: TProject[] = [
     sourceCodeLink: "https://github.com/jean353/refonte_ywca",
   },
   {
-    name: "Christmas hackatton",
+    name: "Christmas hackathon",
     description:
-      "Hackatton initié par le tech pastor pour souhaiter un joyeux noel à la communauté tech",
+      "Hackathon initié par le tech pastor pour souhaiter un joyeux noël à la communauté tech",
     tags: [
       {
         name: "React",
@@ -266,6 +287,89 @@ export const projects: TProject[] = [
     ],
     image: holly,
     sourceCodeLink: "https://github.com/jean353/Merry_Christmas",
+  },
+];
+
+export const gallery = [
+  {
+    id: 1,
+    src: afiDrse,
+    alt: "AFI DRSE",
+  },
+  {
+    id: 2,
+    src: copieImg,
+    alt: "Copie de IMG",
+  },
+  {
+    id: 3,
+    src: drh,
+    alt: "DRH",
+  },
+  {
+    id: 4,
+    src: dsi,
+    alt: "DSI",
+  },
+  {
+    id: 5,
+    src: devAppliYas,
+    alt: "Dev Appli Yas",
+  },
+  {
+    id: 6,
+    src: img20250707,
+    alt: "IMG 20250707",
+  },
+  {
+    id: 7,
+    src: img20250906,
+    alt: "IMG 20250906",
+  },
+  {
+    id: 8,
+    src: img20251102,
+    alt: "IMG 20251102",
+  },
+  {
+    id: 9,
+    src: img2482,
+    alt: "IMG 2482",
+  },
+  {
+    id: 10,
+    src: img9583,
+    alt: "IMG 9583",
+  },
+  {
+    id: 11,
+    src: img9621,
+    alt: "IMG 9621",
+  },
+  {
+    id: 12,
+    src: mamanSowe,
+    alt: "Maman Sowe",
+  },
+  {
+    id: 13,
+    src: photoFamille,
+    alt: "Photo de famille",
+  },
+  {
+    id: 14,
+    src: tcd2025114,
+    alt: "TCD 2025 114",
+  },
+  {
+    id: 15,
+    src: tcd202556,
+    alt: "TCD 2025 56",
+  },
+  {
+    id: 16,
+    src: whatsappImage,
+    alt: "WhatsApp Image",
   },
 ];
 
